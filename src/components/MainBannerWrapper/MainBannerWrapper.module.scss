@@ -1,0 +1,23 @@
+.mainBannerWrapper{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+    .imageWrapper{
+        background-image: url(../../headphones.png);
+        background-repeat: repeat-y;
+        height: 100%;
+        display: flex;
+        width: 40%;
+    }
+
+    .formWrapper{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        width: 60%;
+
+        //background-color: green;
+    }
+}
