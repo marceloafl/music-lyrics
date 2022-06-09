@@ -1,4 +1,3 @@
-import React, { Children } from 'react';
 import style from './Button.module.scss';
 
 function Button (props: any){
